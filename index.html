@@ -1,48 +1,246 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
+    
 <head>
-    <!--sirve para poner el titulo en la pagina, ocupa todo el ancho-->
-    <title>Mi primera pagina</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="STYLE.CSS" />
 </head>
+    <body>
+        
+        <header>
+           
+            <nav>
+                <a href="#">
+                    <img src="./img/Logo.png" alt="" srcset="" id="Logo" />  
+                    <img src="img/movileLogo.png" alt="" srcset="" id="logomovile" />
+                </a>
+    
+                <div class="links">
+                    <div class="registro">
+                        <a href="" class="grey">Log In</a>
+                        <div id="bar"></div>
+                        <a href="">Sing Up</a>
+                        </div>
+        
+                    <div class="idiomas">
+                        <a href="">ES</a>
+                        <a href="">ENG</a>
+                        <img src="./img/burger.png"  alt="" srcset="" />
+                    </div>
+                </div>
+    
+                    
+            </nav>
+        </header>
 
-<body>
-    <header>
-        <!--titulo de nivel 1, se usa para el titulo de la pagina, ocupa todo el ancho-->
-        <h1>Bienvenido a mi pagina</h1>
-        <!--sirve para crear una lista desordena, ocupa todo el ancho-->
-        <ul>
-            <li>Home</li>
-            <li>Producto</li>
-            <li>Historia</li>
-        </ul>
-    </header>
-    <!--especifica una seccion en la pagina, ocupa todo el ancho-->
-    <section>
-        <h2>Introduccion a mi pagina</h2>
-        <p>En MI PRIMERA PAGINA, nos apasiona ofrecerte lo mejor en [sector o servicio específico, por ejemplo,
-            soluciones digitales, productos orgánicos, experiencias de viaje, etc.]. Nos dedicamos a brindarte productos
-            y servicios de alta calidad que están diseñados para hacer tu vida más fácil, entretenida o productiva.</p>
-        <img src="https://www.ecured.cu/images/5/5a/%C3%81rboll.jpg" alt="Arbol">
-    </section>
-    <section>
-        <h3>Conoce sobre noctros</h3>
-        <!--sirve para ingresar textos a la pagina, ocupa todo el ancho-->
-        <p>Explora nuestro sitio y descubre cómo podemos ayudarte a alcanzar tus metas. Ya sea que estés buscando
-            [menciona productos o servicios destacados], o necesites [una solución específica], estamos aquí para
-            ofrecerte lo mejor.</p>
-        <a href="https://espanol.yahoo.com/">Yahoo</a>      
-        <!--sirve para colocar imagenes en la pagina, ocupa su espacio-->
-        <img src="https://www.hola.com/imagenes/mascotas/20180925130054/consejos-para-cuidar-a-un-gatito-recien-nacido-cs/0-601-526/cuidardgatito-t.jpg" alt="Gatito">
-        <button formaction=" mediotiempo.com" type="submit">Medio tiempo</button>
-        <!--sirve para agregar botones de accion en la pagina, solo ocupa un espacio-->
-        <button type="button">Ejemplo</button>
-    </section>
-    <!--la seccion final de la pagina, al final de la pagina-->
-    <footer>
-        <p>Tu satisfacción es nuestra prioridad, y estamos comprometidos a ofrecerte una experiencia única y personalizada.</p>
-        <h3>GRACIAS POR VISITARNOS</h3>
-    </footer>
-</body>
+        
+        <img src="img/banner1.png" alt="" srcset="" id="imgprincipal" />
+           
+        <div class="cuadroprincipal">
+            <div class="titulos">
+                <h2>Luxury</h2>
+                <h1>Real Estate</h1>
+                <button>View all properties</button>
+            </div>    
+            <div class="lupita">
+                    <input type="text" placeholder="Ex. Villa Budapest" />
+                    <img src="img/lupita.png" alt="" srcset="" />
+            </div>
+            
+        </div>
+        
+        <div id="redes">
+            <p>Follow</p>
+            <div id="rayita"></div>
+            <img src="img/in.png" alt="" srcset="">
+            <img src="img/x.png" alt="">
+            <img src="img/face.png" alt="">
+            <img src="img/insta.png" alt="">
+            <img src="img/you.png" alt="">
+        </div>
+    
+        <div class="seccion">
+            <div class="galeria">
+                <div class="uno"> 
+                    <img src="img/Mask group-10.jpg" alt="" srcset="" />
+                </div>
+                <div class="dos">
+                    <img src="img/sale1.jpg" alt="" srcset="" />
+                    <div class="textos textosdos">
+                        <h6>England</h6>
+                        <h5>Glasgow</h5>
+                    </div>  
+                </div>
+                
+                <div class="tres">
+                    <img src="img/Mask group-9.jpg" alt="" srcset="" />
+                    <div class=" textos textostres">
+                        <h6>England</h6>
+                        <h5>Glasgow</h5>
+                    </div>
+                </div>
+            </div>
 
+            <div class="contenido">
+                <div class="textos">
+                    <h6>Worlwide gallery</h6>
+                    <h5>Properties for sale</h5>
+                </div>
+                <div class="botones">
+                    <button class="direcciones prev">PREV</button>
+                    <button class="view">View all properties</button>
+                    <button class="direcciones next">NEXT</button>
+                </div>
+                
+            </div>
+           
+        </div>
+
+        <div class="central">
+            <div class="textocentral">
+                <h6>Luxury properties</h6>
+                <h5>Developments</h5>
+            </div>
+        </div>
+
+        <section>
+            <div class="gale1">
+                <img src="img/Mask group-5.jpg" alt="" srcset="" />
+                <div class="text galeria1">
+                    <h5>The Surf Row</h5>
+                    <h4>Surfside</h4>
+                </div>
+                
+            </div>
+            <div class="gale2">
+                <img src="img/Mask group-7.jpg" alt="" srcset="" />
+                <div class="text galeria2">
+                    <h5>Indigo</h5>
+                    <h4>Vero Beach</h4>
+                </div>
+                
+            </div>
+            <div class="gale3">
+                <img src="img/Mask group-6.jpg" alt="" srcset="" />
+                <div class="text galeria3">
+                    <h5>Rosewood - Baha Mar</h5>
+                    <h4>Nassau, the Bahamas</h4>
+                </div>
+                
+            </div>
+            <div class="gale4">
+                <img src="img/TheAstor.png" alt="" srcset="" />
+                <div class="text galeria4">
+                    <h5>St. Regis - The Astor Tower</h5>
+                    <h4>Brickell, Miami</h4>
+                </div>
+                
+            </div>
+            <div class="gale5">
+                <img src="img/Mask group-4.jpg" alt="" srcset="" />
+                <div class="text galeria5">
+                    <h5>Giralda Place</h5>
+                    <h4>Coral Gables</h4>
+                </div>
+                
+            </div>
+            <div class="gale6">
+                <img src="img/Mask group-3.jpg" alt="" srcset="" />
+                <div class="galemobil">
+                    <img src="img/Mask group-13.jpg" alt="" srcset="" />
+                </div>
+                <div class="text galeria6">
+                    <h5>St. Regis - The William Tower</h5>
+                    <h4>Brickell, Miami</h4>
+                </div>
+                
+            </div>
+            <div class="gale7">
+                <img src="img/Mask group-2.jpg" alt="" srcset="" />
+                <div class="galemobil1">
+                    <img src="img/Mask group-14.jpg" alt="" srcset="" />
+                </div>
+                <div class="text galeria7">
+                    <h5>Solterre at Cockleshell Bay</h5>
+                    <h4>St. Kitts and nevis</h4>
+                </div>
+                
+            </div>
+            <div class="gale8">
+                <img src="img/Mask group-1.jpg" alt="" srcset="" />
+                <div class="galemobil2">
+                    <img src="img/Mask group-15.jpg" alt="" srcset="" />
+                </div>
+                <div class="text galeria8">
+                    <h5>Urbin</h5>
+                    <h4>Coconut Grove</h4>
+                </div>
+                
+            </div>
+        </section>
+    
+        
+    
+        <footer>
+            <div class="cuadro1">
+                <div>
+                    <p id="textfooter">
+                        <span>Join the list </span> <br />
+                        Unlock <br />
+                        the exclusive world
+                    </p>
+                </div>
+                <div class="dos">
+                    <p> Name:</p>
+                    <input type="email" placeholder="Ex. name@mail.com" />
+                    <button>Submit</button>
+                </div>
+            </div>    
+
+            <div class="cuadro2">
+                <div class="enlaces">
+                    <div class=" inicio">
+                        <ul>
+                            <li>Become a New Uniq Artist</li>
+                            <li>Become a Commercial Partner</li>
+                        </ul>
+                    </div>
+    
+                    <div class=" medio segunda">
+                        <ul>
+                            <li>Suites</li>
+                            <li>Cities</li>
+                            <li>Villas</li>
+                        </ul>
+                    </div>
+    
+                    <div class=" medio tercera">
+                        <ul>
+                            <li>Houses</li>
+                            <li>Apartaments</li>
+                            <li id="separado">Contact us</li>  
+                    </div> 
+
+                    <div class="final">
+                        <ul>
+                            <li>Call Center</li>
+                            <li>+52 55 6840 4000</li>
+                            <li>concierge@uniqluxury.com</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="copy">
+                    <p>Copyright © 2024</p>  
+                </div> 
+            </div>
+        </footer>
+
+    
+
+
+
+    </body>
 </html>
