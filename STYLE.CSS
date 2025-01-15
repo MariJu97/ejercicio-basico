@@ -546,8 +546,19 @@ footer {
         padding: 40px;
         grid-template-columns: 1fr;
 
+        .gale6{
+            .galemobil{
+                display: block;
+            }
+        }
+
         .gale7 {
             .galemobil1 {
+                display: block;
+            }
+        }
+        .gale8 {
+            .galemobil2{
                 display: block;
             }
         }
@@ -562,10 +573,10 @@ footer {
             display: none;
         }
         .gale1, .gale2, .gale3,
-        .gale4, .gale5, .gale6,
-        .gale7, .gale8 {
+        .gale4, .gale5, .gale6{
             display: none;
         }
+        
         
     }
 
